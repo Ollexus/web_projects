@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "Chee Bleed";
+	src: url(
+		"https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Cheee_Variable1.woff2"
+	);
+}
+
+@keyframes variation {
+	0% {
+		font-variation-settings: "temp" 1000;
+	}
+	100% {
+		font-variation-settings: "temp" 0;
+	}
+}
+
+html, body {
+	height: 100%;
+}
+
+h1 {
+	font-family: "Chee Bleed";
+	font-variation-settings: "temp" 1000;
+	animation: variation 3s ease infinite alternate-reverse;
+	font-size: 15vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	letter-spacing: 20px;
+	margin: 0;
+	color: #980002;
+}
+/*
+изумрудный: #50c878 #008754 #0F8558
+люминисцентный зелёный: #00BB2E
+шоколадный: #835230
+кровавый: #980002
+*/
