@@ -18,7 +18,7 @@ html, body {
 	height: 100%;
 }
 
-h1 {
+h3 {
 	font-family: "Chee Bleed";
 	font-variation-settings: "temp" 1000;
 	animation: variation 3s ease infinite alternate-reverse;
