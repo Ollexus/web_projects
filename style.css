@@ -17,6 +17,7 @@
 html, body {
 	height: 100%;
 	background-image: url("https://sun9-31.userapi.com/impg/NGM7543BQw2upDfljZ0Za1-YbYcBW3WzcGXn8Q/P4iQxQVmDaU.jpg?size=900x880&quality=96&sign=85c236af3109be675fa4cc16e453e0f8&type=album");
+	background-size: cover;
 }
 
 h3 {
